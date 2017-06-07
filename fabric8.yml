@@ -1,0 +1,13 @@
+---
+buildName: "test"
+links:
+  Git: "http://gogs/gogsadmin/test.git"
+  Job: "http://jenkins.f8.34.253.174.87.xip.io/job/test"
+  Production: "http://10.3.0.201:80/kubernetes/pods?namespace=f8-production"
+  Staging: "http://10.3.0.201:80/kubernetes/pods?namespace=f8-staging"
+  Testing: "http://10.3.0.201:80/kubernetes/pods?namespace=f8-testing"
+environments:
+  Testing: "f8-testing"
+  Staging: "f8-staging"
+  Production: "f8-production"
+useLocalFlow: true
